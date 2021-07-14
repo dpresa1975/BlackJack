@@ -6,7 +6,7 @@ K=10
 jug=0
 deal=0
 Baraja=[A,2,3,4,5,6,7,8,9,10,J,Q,K]
-for i in range(50000):
+for i in range(100000):
     print("Cartas jugador")
     carta1=random.choice(Baraja)
     carta2=random.choice(Baraja)
